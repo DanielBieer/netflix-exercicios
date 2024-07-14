@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <ul>
+                <li class="menu-item">Sobre</li>
+                <li class="menu-item">Trailer</li>
+                <li class="menu-item">
+                    <img class="logo" src="./imgs/netflix-logo.png" alt="Netflix">
+                </li>
+                <li class="menu-item">Atores</li>
+                <li class="menu-item">Avaliações</li>
+            </ul>
+        </div>
+        <div class="row ph-30 gap-150 pt-50" >
+            <div class="info-serie">
+                <h4 class="titulo">Supernatural</h4>
+                <h6 class="genero m-t-14 m-b-28">Drama, Mistério, Terror</h6>
+                <span class="descricao">Desde que era pequeno, Sam Winchester (Jared Padalecki) tentava escapar do próprio passsado. Após a misteriosa morte de Mary (Samantha Smith), o pai de Sam passou a procurar vingança contra as forças do mal que mataram a esposa, destruindo qualquer ser maligno que cruze o seu caminho.</span>
+
+                <div class="temporadas">
+                    <span>1ª Temporada</span>
+                    <img class="seta" src="./imgs/chevron-left.png" alt="seta esquerda">
+                    <img class="seta" src="./imgs/chevron-right.png" alt="seta direita">
+                </div>
+
+                <div id="lista-episodios" class="episodios"></div>
+            </div>
+
+            <img class="poster" src="./imgs/poster.png" alt="poster">
+        </div>
+
+        <div class="social">
+            <a href="#" id="facebook-share"><img src="./imgs/facebook.png" alt="Facebook"></a>
+            <a href="#" id="twitter-share"><img src="./imgs/twitter.png" alt="Twitter"></a>
+            <a href="#" id="instagram-share"><img src="./imgs/instagram.png" alt="Instagram"></a>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
